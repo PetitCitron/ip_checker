@@ -80,6 +80,7 @@ if($config->jsonOut) {
             echo "   " .   $log . "\n";
         }
         echo "# PAYS :" . $ip['country_code'] . " - " . $ip["asn_name"]  . "\n";
+        echo $ip['ip'] . "\n";
         echo $ip['route'] . "\n" ;
         echo  "---------------------\n\n";
     }
